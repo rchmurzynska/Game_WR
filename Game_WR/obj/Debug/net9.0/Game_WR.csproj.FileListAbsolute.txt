@@ -1,0 +1,4 @@
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.AssemblyInfoInputs.cache
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.AssemblyInfo.cs
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.csproj.CoreCompileInputs.cache
