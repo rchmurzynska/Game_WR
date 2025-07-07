@@ -9,7 +9,7 @@ directionsMap.Add("moveUp", new Point(0, -1));
 directionsMap.Add("moveDown", new Point(0, 1));
 
 Point startingPoint = new Point(18, 1);
-Player hero = new Player("Star", "@");
+Player hero = new Player("Star", "S");
 hero.speed = 1;
 hero.position = startingPoint;
 
