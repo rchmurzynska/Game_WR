@@ -23,9 +23,12 @@ hero.speed = 1;
 hero.position = startingPoint;
 
 List<Character> characters = new List<Character>();
-Level FirstLevel = new Level (@"C:\Users\roksa\Desktop\Game_WR\Game_WR\Levels\FirstLevel.txt");
+characters.Add(hero);
 
-Level currentLevel = FirstLevel;
-Player hero = new Player("Star", "S", startingPoint, currentLevel, keyActionMap);
+NonPlayerCharacter npc = new NonPlayerCharacter("Enemy", "E");
+npc.position = new Point(5, 5);
 
+characters.Add(npc);
+    
 
+    
