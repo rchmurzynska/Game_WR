@@ -1,5 +1,3 @@
-using System.Runtime;
-
 abstract class Character
 {
     public string name;
@@ -29,16 +27,21 @@ abstract class Character
             target.x = coordinateToTest;
         }
 
-        int signY = Math.Sign(direction.y);
-        for (int y = 1; y <= Math.Abs(direction.y * speed); y++)
-        {
-            int coordinateToTest = position.y + y * signY;
-            if (level.GetCellVisuals(target.x, coordinateToTest) == '#')
-            {
-                break;
-            }
+        target.y = Math.Clamp(target.y, 0, level.GetHeight() - 1);
+        target.x = Math.Clamp(target.x, 0, level.GetRowWidth(target.y) - 1);
 
-            target.y = coordinateToTest;
+        if (level.GetCellVisuals(target.x, target.y) != '#')
+        {
+            position = target;
+            // speed += 1;
         }
+
     }
+    public void Display()
+    {
+        Console.SetCursorPosition(position.x, position.y);
+        Console.Write(avatar);
+    }
+
+public abstract string ChooseAction();
 }

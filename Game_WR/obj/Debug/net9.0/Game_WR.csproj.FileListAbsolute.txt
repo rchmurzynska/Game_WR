@@ -2,3 +2,14 @@ c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.GeneratedMSBuild
 c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.AssemblyInfoInputs.cache
 c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.AssemblyInfo.cs
 c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.csproj.CoreCompileInputs.cache
+c:\Users\roksa\Desktop\Game_WR\Game_WR\bin\Debug\net9.0\Game_WR.exe
+c:\Users\roksa\Desktop\Game_WR\Game_WR\bin\Debug\net9.0\Game_WR.deps.json
+c:\Users\roksa\Desktop\Game_WR\Game_WR\bin\Debug\net9.0\Game_WR.runtimeconfig.json
+c:\Users\roksa\Desktop\Game_WR\Game_WR\bin\Debug\net9.0\Game_WR.dll
+c:\Users\roksa\Desktop\Game_WR\Game_WR\bin\Debug\net9.0\Game_WR.pdb
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.sourcelink.json
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.dll
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\refint\Game_WR.dll
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.pdb
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\Game_WR.genruntimeconfig.cache
+c:\Users\roksa\Desktop\Game_WR\Game_WR\obj\Debug\net9.0\ref\Game_WR.dll

@@ -2,15 +2,6 @@
 
 Console.CursorVisible = false;
 
-Dictionary<ConsoleKey, string> keyActionMap = new Dictionary<ConsoleKey, string>();
-keyActionMap.Add(ConsoleKey.A, "moveLeft");
-keyActionMap.Add(ConsoleKey.D, "moveRight"); 
-keyActionMap.Add(ConsoleKey.W, "moveUp");
-keyActionMap.Add(ConsoleKey.S, "moveDown");
-keyActionMap.Add(ConsoleKey.Escape, "exit");
-keyActionMap.Add(ConsoleKey.F, "attack");
-
-
 Dictionary<string, Point> directionsMap = new Dictionary<string, Point>();
 directionsMap.Add("moveLeft", new Point(-1, 0));
 directionsMap.Add("moveRight", new Point(1, 0));
@@ -28,7 +19,56 @@ characters.Add(hero);
 NonPlayerCharacter npc = new NonPlayerCharacter("Enemy", "E");
 npc.position = new Point(5, 5);
 
-characters.Add(npc);
+Level firstLevel = new Level();
+firstLevel.Display();
+
+foreach (Character element in characters)
+{
+    element.Display();
+}
+
+npc.Display();
+
+while (true)
+{
+    Console.SetCursorPosition(12, 0);
+    Console.Write(hero.speed);
+
+    foreach (Character element in characters)
+    {
+        element.Display();
+    }
+
+    int charactersAmount = characters.Count;
+    for (int i = 0; i < charactersAmount; i++)
+    {
+        Character element = characters[i];
+        element.Display();
+
+        string chosenAction = element.ChooseAction();
+        if (!directionsMap.ContainsKey(chosenAction))
+        {
+            if (chosenAction == "clone")
+            {
+                PlayerClone clone = new PlayerClone(hero, "C");
+                clone.position = startingPoint;
+                characters.Add(clone);
+            }
+
+            continue;
+        }
+
+        Point direction = directionsMap[chosenAction];
+        element.Move(direction, firstLevel);
+    }
+}
+
+Console.WriteLine("Press Enter to continue...");
+ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+while (keyInfo.Key != ConsoleKey.Enter)
+{
+    keyInfo = Console.ReadKey(true);
+}
     
 
     

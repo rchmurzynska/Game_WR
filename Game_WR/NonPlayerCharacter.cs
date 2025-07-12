@@ -13,7 +13,7 @@ class NonPlayerCharacter : Character
         };
     }
 
-    public override string ChooseAction()
+    public virtual string ChooseAction()
     {
         return allowedActions[Random.Shared.Next(allowedActions.Count)];
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\Game_WR.csproj": {}
+    "c:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\Game_WR.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\Game_WR.csproj": {
+    "c:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\Game_WR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\Game_WR.csproj",
+        "projectUniqueName": "c:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\Game_WR.csproj",
         "projectName": "Game_WR",
-        "projectPath": "C:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\Game_WR.csproj",
+        "projectPath": "c:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\Game_WR.csproj",
         "packagesPath": "C:\\Users\\roksa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\obj\\",
+        "outputPath": "c:\\Users\\roksa\\Desktop\\Game_WR\\Game_WR\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\roksa\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,4 +1,4 @@
-class Player: Character
+class Player : Character
 {
     Dictionary<ConsoleKey, string> keyActionMap = new Dictionary<ConsoleKey, string>
     {
@@ -19,7 +19,6 @@ class Player: Character
     {
         ConsoleKeyInfo pressedKey = Console.ReadKey(true);
         chosenAction = keyActionMap.GetValueOrDefault(pressedKey.Key, "pass");
-
-        return chosenAction;
     }
+
 }
